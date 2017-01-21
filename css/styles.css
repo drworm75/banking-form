@@ -1,0 +1,43 @@
+.style-smart {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 600px;
+    background: #F8F8F8;
+    padding: 30px 30px 20px 30px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 5px;
+}
+
+
+.style-smart h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 40px;
+    display: block;
+    margin: -30px -30px 20px -30px;
+    color: #EEE;
+    background: #85bb65;
+    text-shadow: 1px 1px 1px #949494;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom:1px solid #89AF4C;
+
+}
+
+.style-smart input[type="text"], .style-smart input[type="email"], .style-smart input[type="radio"] .style-smart textarea, .style-smart select {
+    color: #555;
+    height: 25px;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    font-size: 1.2em;
+}
+
+  input:required:invalid, input:focus:invalid {
+    background-color: orangered;
+  }
+
+input:required:valid {
+    background-color: springgreen;
+  }
+
